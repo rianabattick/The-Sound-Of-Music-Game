@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>The Sound of Music!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      The Sound of Music!
+    </h1>
+    
+    <p>
+      Ready to test your memory and create a new song?  Repeat the pattern to win the game!
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">
+      Start
+      
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+      <img src="https://cdn.glitch.global/6c795e52-5398-4e67-95e2-24a9172bd092/Add%20a%20heading-3.jpg?v=1650435700533" alt="Do" width="200" height="200">
+      
+      </button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+      <img src="https://cdn.glitch.global/6c795e52-5398-4e67-95e2-24a9172bd092/RE.jpg?v=1650436017694" alt="Re" width="200" height="200">
+      </button>
+      
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+      <img src="https://cdn.glitch.global/6c795e52-5398-4e67-95e2-24a9172bd092/MI.jpg?v=1650436438898" alt="MI" width="200" height="200">
+      </button>
+      
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+      <img src="https://cdn.glitch.global/6c795e52-5398-4e67-95e2-24a9172bd092/FA.jpg?v=1650436826254" alt="FA" width="200" height="200">
+      </button>
+      
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+      <img src="https://cdn.glitch.global/6c795e52-5398-4e67-95e2-24a9172bd092/SO.jpg?v=1650437147132" alt="SO" width="200" height="200">
+      </button>
+      
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
+      <img src="https://cdn.glitch.global/6c795e52-5398-4e67-95e2-24a9172bd092/LA.jpg?v=1650437284699" alt="LA" width="200" height="200">
+      </button>
+      
+      <button id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()">
+      <img src="https://cdn.glitch.global/6c795e52-5398-4e67-95e2-24a9172bd092/TI.jpg?v=1650437514730" alt="TI" width="200" height="200">
+      </button>
+      
+      <button id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()">
+      <img src="https://cdn.glitch.global/6c795e52-5398-4e67-95e2-24a9172bd092/DO.jpg?v=1650437914602" alt="DO" width="200" height="200">
+      </button>
+      
+    </div>
+    
+  </body>
+</html>
+

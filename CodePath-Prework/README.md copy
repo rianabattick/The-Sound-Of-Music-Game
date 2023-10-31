@@ -1,0 +1,93 @@
+# Pre-work - *Memory Game*
+
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+
+Submitted by: **Riana Battick**
+
+Time spent: **7** hours spent in total
+
+Link to project: https://glitch.com/edit/#!/palm-industrious-gargoyleosaurus?path=index.html%3A1%3A0
+
+## Required Functionality
+
+The following **required** functionality is complete:
+
+* [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [x] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [x] Game buttons each light up and play a sound when clicked. 
+* [x] Computer plays back sequence of clues including sound and visual cue for each button
+* [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [x] User wins the game after guessing a complete pattern
+* [x] User loses the game after an incorrect guess
+
+The following **optional** features are implemented:
+
+* [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [x] More than 4 functional game buttons
+* [x] Playback speeds up on each turn
+* [x] Computer picks a different pattern each time the game is played
+* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [x] Game button appearance change goes beyond color (e.g. add an image)
+* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [ ] User has a limited amount of time to enter their guess on each turn
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app!
+
+## Video Walkthrough (GIF)
+
+If you recorded multiple GIFs for all the implemented features, you can add them here:
+![winning the game]https://recordit.co/YKpUnv0M5a
+![losing the game]https://recordit.co/qcapuiJszG
+![](gif3-link-here)
+![](gif4-link-here)
+
+## Reflection Questions
+1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+[I used the website, www.w3.org, to get valid css color keywords and a tuner app to ensure that my audio frequencies match specific musical notes. ]
+
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+[Inspiration and creativity are somehow the driving force for everything that I do. When I finally finished all the required features of the Light and Memory game, I already had exciting plans of how I was going to make this creation my own.
+My initial idea for the game was to make it an educational game for children, where the buttons had pictures of different animals on it, and the corresponding audio would be the sound that each animal makes. But I found it difficult to make the game work with new audio clips. I got the buttons to make the right animal sounds, but my main problem was getting them to work with the clue sequence and the actual functioning of the game. I believe that I can and will figure it out as I continue to tinker with my code and other aspects of web development. 
+I decided to change my vision entirely and connect my game idea to my love of music. I thought to myself, “How can I make these sounds intentional without using outside audio clips?”. The movie “The Sound of Music”, one of my favorites, came to mind. In this movie, a governess uses different combinations of the “Do-Re-Mi” notes to teach her children different musical combinations and how to sing. My idea was to let the game create different combinations of these notes, while the player would be able to test his/her memory of these combinations as well as their ‘musical ear’ of the right notes (C for ‘Do’, D for ‘Re’ and so on). 
+My plan was to change the frequencies to match the right notes and label the buttons accordingly. I also titled my game “The Sound of Music” based on my inspiration. The changes were carried out successfully and I was pleased with my final result. 
+]
+
+3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+[My interest in web development has certainly grown since completing this project. I was so excited about my game that I sent the link to the website to many of my family members and friends. When I tried to play from my phone, however, the game started to glitch. So my first question is: “What methods can be carried out to make a webpage more compatible with a mobile device?”. I would also like to know how I can make my buttons, and anything for that matter, stay in place, instead of moving based on the size of the screen.  
+My other questions include: 
+1.	What is the process of making a website also available as an mobile app. For example, Facebook.com.
+2.	How can I have multiple screens available for one website. For example, when I click on something on the page, it opens a new screen that is still within the same website.
+3.	How can I make a website private, and inaccessible from people on the internet?
+4.	How can I get into freelance web development?
+]
+
+4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+[If I had more time to work on this project, I would try to make the game more aligned with the “The Sound of Music” theme. I would start by adding a picture of the musical scale with the ‘do-re-mi’ notes, beside the title. I would then import audio of a voice saying the words on the buttons in the same tone, instead of just the tone itself. The next thing I would do is to implement the ‘add a ticking clock’ and ‘give the player 3 strikes’ optional features. However, instead of three strikes I would only give them two because I think the game is too short for three strikes.
+For future implementations, I also think it would be very cool to add a feature on the site where the player can ‘freestyle’ their own pattern of notes that they can save to the game and view later. 
+]
+
+
+
+## Interview Recording URL Link
+
+[My 5-minute Interview Recording](https://www.loom.com/share/28b70e4232724eada9712c591f26e998)
+
+
+## License
+
+    Copyright [Riana Battick]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
